@@ -9,7 +9,7 @@ function App() {
 
   const callServer=async ()=>{
 
-  const response= await fetch("http://localhost:3000/greetings")
+  const response= await fetch("https://basic-mern-backend-lemon.vercel.app/greetings")
 
     console.log("response  ",response)
 
